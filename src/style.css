@@ -1,0 +1,23 @@
+:root {
+  --color-primary: #007bff;
+  --color-primary-dark: #0056b3;
+  --color-background: #f5f5f5;
+  --color-form-background: white;
+  --color-text: #333;
+  --color-border: #ddd;
+  --font-family: Arial, sans-serif;
+}
+
+/* CSS Reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+/* TODO: Add your styles here */
