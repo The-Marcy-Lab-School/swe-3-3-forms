@@ -19,6 +19,7 @@
 - [CSS Cheatsheet](#css-cheatsheet)
   - [Colors](#colors)
   - [Typography (Text Styling)](#typography-text-styling)
+  - [CSS Variables](#css-variables)
   - [Box Model (Spacing \& Sizing)](#box-model-spacing--sizing)
   - [Layout](#layout)
   - [Interactive States (Pseudo-classes)](#interactive-states-pseudo-classes)
@@ -264,6 +265,35 @@ This ensures:
 | `font-size` | Sets text size (use `rem`!) | `font-size: 1rem;` |
 | `font-weight` | Sets boldness | `font-weight: bold;` |
 | `text-align` | Aligns text | `text-align: center;` |
+
+### CSS Variables
+
+**CSS Variables** are reusable values you define once and use throughout your CSS. This is helpful for consistent colors, fonts, and easy updates.
+
+**Example:**
+```css
+:root {
+  --color-background: #181818;
+  --color-accent: #1db954;
+  --color-text: #fff;
+  --font-family: Arial, sans-serif;
+}
+```
+
+**Usage:**
+```css
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-family);
+}
+
+a:hover {
+  color: var(--color-accent);
+}
+```
+
+Define your variables at the top of your `style.css` inside the `:root` selector, then use them everywhere you reference colors, fonts, or repeated values.
 
 ### Box Model (Spacing & Sizing)
 
