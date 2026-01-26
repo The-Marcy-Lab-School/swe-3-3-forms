@@ -148,17 +148,17 @@ body {
 - [ ] Every input has a label and a name attribute
 - [ ] Related inputs are grouped appropriately using `fieldset`
 
-**CSS & Layout**
-- [ ] CSS Variables are used to minimize repetition
-- [ ] Padding, margins, and gaps match the design specification
+**CSS Layout**
 - [ ] Flexbox and/or grid is used to control the layout
 
 **User Interaction**
 - [ ] The submit button has a hover effect
 - [ ] Bonus: The form sends the form data to a formspree endpoint.
 
-**Overall:**
+**General Styling:**
 - [ ] Passes the "eye test" (without looking at the code or inspecting closely, the page looks like it matches the design spec)
+- [ ] CSS Variables are used to minimize repetition
+- [ ] Padding, margins, and gaps match the design specification
 
 ### Submission
 
