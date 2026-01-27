@@ -143,7 +143,7 @@ body {
 
 **HTML Structure**
 
-- [ ] Uses semantic HTML elements to structure the page
+- [ ] Uses semantic HTML elements (`header`, `main`, `footer`, `section`, `nav`) for major page components instead of generic `div`s.
 - [ ] All form inputs are present and use appropriate input types
 - [ ] Every input has a label and a name attribute
 - [ ] Related inputs are grouped appropriately using `fieldset`
